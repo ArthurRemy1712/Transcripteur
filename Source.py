@@ -5,7 +5,7 @@ from openai import OpenAI
 import os
 
 # Configure ta clé API OpenAI
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='cléAPI')
 
 def convert_and_transcribe():
     file_path = filedialog.askopenfilename()
